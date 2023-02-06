@@ -1,0 +1,140 @@
+:root {
+  /* color */
+  --primary-color: #f5faf8;
+  --secondary-color: #f0bb62;
+  /* font */
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: var(--primary-color);
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+}
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+/* Navbar Color */
+.nav-color {
+  background-color: #146356;
+}
+* {
+  z-index: 2;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 115px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+section {
+  padding-top: 20px;
+}
+/* Hero Section */
+#hero {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+}
+.img-hero {
+  height: 500px;
+  margin-top: 20px;
+}
+.hero-tekshome h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+}
+
+.hero-tekshome h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.hero-tekshome p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.button-lg-primary {
+  width: 150px;
+  height: 60px;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.6em;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#penyakit {
+  background-color: #ffffff;
+}
+
+.desc-teks h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 72px;
+}
+
+.desc-teks p {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+.desc-teks span {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.kontak-teks h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 72px;
+}
+
+.btn-kontak {
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.4em;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: #146356;
+}
+.footer p {
+  color: #ffffff;
+}

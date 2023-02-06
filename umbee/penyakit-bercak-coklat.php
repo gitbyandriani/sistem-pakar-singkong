@@ -34,70 +34,31 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/dual.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="post-heading">
-                            <h2>Jenis - Jenis Penyakit Singkong</h2>
-                            <p>Terdapat beberapa penyakit yang dapat menyerang tanaman singkong, berikut diantaranya</p>
+                        <div class="page-heading">
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Post Content-->
-
-    <!-- Awal Jenis Hama dan Penyakit -->
-    <section id="penyakit">
-      <div class="container">
-        <div class="row">
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/bintik-coklat.jpg" class="card-img-top" alt="wereng batang coklat" />
-                <i>sumber: apps.lucidcentral.org</i>
-                <div class="card-body">
-                  <h6 class="card-text">Bercak Daun Coklat</h6>
-                  <a href="penyakit-bercak-coklat.php" class="btn btn-success">selengkapnya</a>
+         <!-- Post Content-->
+         <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2 class="section-heading">Bercak Daun Coklat</h2>
+                        <p></p>
+                        <a href="#!"><img class="img-fluid" src="assets/img/bintik-coklat.jpg" alt="..." /></a>
+                        <p class="caption text-muted">sumber: apps.lucidcentral.org</p>
+                        <p align="justify">Penyakit bercak daun coklat pada ubi kayu disebabkan oleh jamur <i>Cercosporidium henningsii</i>. Penyakit ini merupakan penyakit yang sangat umum ditemukan pada tanaman ubi kayu, terutama pada daerah dengan curah hujan dan suhunya tinggi. Angin dan air hujan dapat membawa spora jamur dari daun sakit ke daun sehat di dekatnya. Pada kondisi udara lembab, spora akan berkecambah membentuk buluh kecambah dan mempenetrasi daun melalui mulut daun. Selama musim kemarau, jamur mempertahankan diri pada bercak-bercak, bahkan pada daun-daun yang telah rontok.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/bintik-putih.jpg" class="card-img-top" alt="penggerek batang coklat" />
-                <i>sumber: balitbang pertanian, 2013</i>
-                <div class="card-body">
-                  <h6 class="card-text">Bercak Daun Putih</h6>
-                  <a href="penyakit-bercak-putih.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/antraknose.jpg" class="card-img-top" alt="wereng batang coklat" />
-                <i>Sumber: diperpa.badungkab.go.id</i>
-                <div class="card-body">
-                  <h6 class="card-text">Antraknose</h6>
-                  <a href="penyakit-antraknose.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/busuk-akar-umbi.jpg" class="card-img-top" alt="hama keong mas" />
-                <i>sumber: plantwiseplusknowledgebank.org</i>
-                <div class="card-body">
-                  <h6 class="card-text">Busuk Pangkal Batang/Akar/Umbi</h6>
-                  <a href="penyakit-busuk-batang.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-    </section>
-
-    <!-- Akhir jenis hama dan penyakit -->
         </article>
+
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">

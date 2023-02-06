@@ -46,65 +46,74 @@
                 </div>
             </div>
         </header>
+    <!-- Awal Hero Section -->
+    <section id="hero mt-5">
+    <div class="container">
+        <div class="row">
+        <div class="col align-self-center hero-tekshome my-auto">
+            <h3 class="mb-4 mt-5">Cara Penggunaan Website</h3>
+            <!-- <h3 class="mb-4 fw-bold text-white">
+            Penting! Baca aturan penggunaan website
+            </h3> -->
+            <p class="mb-4">
+            1. Klik menu diagnosa untuk melakukan tes penyakit terhadap tanaman ubi kayu<br>
+            <br> 2. Jawablah pertanyaan yang di tampilkan pada website jika gejala yang ditampilkan oleh website  sama dengan gejala yang ada pada padi anda maka klik tombol "Ya" jika tidak maka klik tombol "Tidak".<br>
+            <br> 3. Jika anda tidak ingin menyelesaikan tes klik tombol "Batal Tes" dan tes akan dibatalkan.<br>
+            <br> 4. Namun jika anda ingin melanjutkan tes jawab semua gejala yang di tampilkan oleh website jika sudah maka anda akan melihat hasil dari tes anda.
+            </p>
+            <!-- <a href="tes-hama.php">
+            <button class="button-lg-primary">Diagnosa</button>
+        </a> -->
+        </div>
+        <div class="col d-none d-sm-block">
+            <img width="500" src="assets/img/check.jpg" alt="hero" />
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
         <!-- Main Content-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2022
-                        </p>
-                    </div>
+
                     <!-- Divider-->
                     <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
+
             </div>
         </div>
+
+    <!-- Awal Hero Section -->
+    <section id="hero mt-5">
+    <div class="container">
+        <div class="row">
+        <div class="col align-self-center hero-tekshome my-auto">
+            <h3 class="mb-4 mt-5">Cara Penggunaan Website</h3>
+            <p class="mb-4">
+            Website sistem pakar ini dapat membantu anda untuk mendiagnosa hama dan penyakit yang menyerang tanaman padi. Cara menggunakan nya:
+            </p>
+            <!-- <h3 class="mb-4 fw-bold text-white">
+            Penting! Baca aturan penggunaan website
+            </h3> -->
+            <p class="mb-4">
+            1. Jika anda akan melakukan tes untuk mengetahui penyakit atau hama yang menyerang padi anda klik menu diagnosa.<br>
+            <br> 2. Jawablah pertanyaan yang di tampilkan pada website jika gejala yang ditampilkan oleh website  sama dengan gejala yang ada pada padi anda maka klik tombol "Ya" jika tidak maka klik tombol "Tidak".<br>
+            <br> 3. Jika anda tidak ingin menyelesaikan tes klik tombol "Batal Tes" dan tes akan dibatalkan.<br>
+            <br> 4. Namun jika anda ingin melanjutkan tes jawab semua gejala yang di tampilkan oleh website jika sudah maka anda akan melihat hasil dari tes anda.
+            </p>
+            <!-- <a href="tes-hama.php">
+            <button class="button-lg-primary">Diagnosa</button>
+        </a> -->
+        </div>
+        <div class="col d-none d-sm-block">
+            <img width="500" src="assets/img/check.jpg" alt="hero" />
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">

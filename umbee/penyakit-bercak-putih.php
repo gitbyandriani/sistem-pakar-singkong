@@ -34,70 +34,31 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/dual.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="post-heading">
-                            <h2>Jenis - Jenis Penyakit Singkong</h2>
-                            <p>Terdapat beberapa penyakit yang dapat menyerang tanaman singkong, berikut diantaranya</p>
+                        <div class="page-heading">
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Post Content-->
-
-    <!-- Awal Jenis Hama dan Penyakit -->
-    <section id="penyakit">
-      <div class="container">
-        <div class="row">
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/bintik-coklat.jpg" class="card-img-top" alt="wereng batang coklat" />
-                <i>sumber: apps.lucidcentral.org</i>
-                <div class="card-body">
-                  <h6 class="card-text">Bercak Daun Coklat</h6>
-                  <a href="penyakit-bercak-coklat.php" class="btn btn-success">selengkapnya</a>
+         <!-- Post Content-->
+         <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2 class="section-heading">Bercak Daun Putih</h2>
+                        <p></p>
+                        <a href="#!"><img class="img-fluid" src="assets/img/bintik-putih.jpg" alt="..." /></a>
+                        <span class="caption text-muted">sumber: balitbang pertanian, 2013</span>
+                        <p align = "justify" >Bercak dan putih merupakan salah satu penyakit yang menyerang ubi kayu pada bagian daun. Penyakit ini disebabkan oleh jamur <i>Phaeoramularia manihotis. Penyakit ini banyak berkembang pada kondisi lembab dan suhu udara yang agak sejuk. Seperti halnya penyakit bercak daun coklat, perkembangan dan penyebaran penyakit sangat dibantu oleh curah hujan yang tinggi.</i></p>
+                    </div>
                 </div>
-              </div>
             </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/bintik-putih.jpg" class="card-img-top" alt="penggerek batang coklat" />
-                <i>sumber: balitbang pertanian, 2013</i>
-                <div class="card-body">
-                  <h6 class="card-text">Bercak Daun Putih</h6>
-                  <a href="penyakit-bercak-putih.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/antraknose.jpg" class="card-img-top" alt="wereng batang coklat" />
-                <i>Sumber: diperpa.badungkab.go.id</i>
-                <div class="card-body">
-                  <h6 class="card-text">Antraknose</h6>
-                  <a href="penyakit-antraknose.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="assets/img/busuk-akar-umbi.jpg" class="card-img-top" alt="hama keong mas" />
-                <i>sumber: plantwiseplusknowledgebank.org</i>
-                <div class="card-body">
-                  <h6 class="card-text">Busuk Pangkal Batang/Akar/Umbi</h6>
-                  <a href="penyakit-busuk-batang.php" class="btn btn-success">selengkapnya</a>
-                </div>
-              </div>
-            </div>
-    </section>
-
-    <!-- Akhir jenis hama dan penyakit -->
         </article>
+
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
