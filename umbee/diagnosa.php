@@ -48,8 +48,8 @@
                 </div>
             </div>
         </header>
-        <div class="container px-4 px-lg-5">
-        <h2 class="mb-4 mt-5 text-black fw-bold">Pertanyaan : </h2></div>
+        <!-- <div class="container px-4 px-lg-5">
+        <h2 class="mb-4 mt-5 text-black fw-bold">Pertanyaan : </h2></div> -->
         
         <!-- Mulai Code Sistem Pakar--> 
         <?php
@@ -91,11 +91,14 @@
                 $row 		= mysql_fetch_array($result);
                 $pertanyaan = nl2br($row['pertanyaan']);
                 echo("");
+                echo "</ol><br><a><h2><b>Pertanyaan :</h2></b></a></br>";
                 echo("<br/><span style=' font-size:20px; color: #000;'>".$pertanyaan."</span>");
                 echo("<br/><br/>");
                 if($row['ifyes'] != "0" && $row['ifno'] != "0"){
                     echo("<a class='jawab btn btn-success' href=\"?pilih=tanya&pilihan=Y&answer={$row['ifyes']}\">Ya</a> &nbsp;
                     <a class='jawab btn btn-danger' href=\"?pilih=tanya&pilihan=N&answer={$row['ifno']}\">Tidak</a>");
+                    echo "<br></br>";
+                    echo "</ol><br><a href='logout.php' class='btn btn-secondary'>Batal Test</a></br>";
                 }else{
                     echo "";
                 }
@@ -103,25 +106,13 @@
 
             if($s['ifyes'] == "0" && $s['ifno'] == "0"){			
             echo "<br/><span style=' font-size:20px; color: #000;'><b>Hasil Konsultasi :</b><br> ".$penyakit."<br><br>";
-            echo "</ol><a href='diagnosa.php' class='btn btn-secondary'>Coba Konsultasi Lagi</a></span>";
+                    echo "</ol><br><a href='pengendalian.php' class='btn btn-success'>Cek Pengendalian</a></br>";
+                    echo "<br></br>";
+                    echo "</ol><a href='diagnosa.php' class='btn btn-secondary'>Coba Konsultasi Lagi</a></span>";
             }else{
                 echo "";
             }
-
-            $result_pengendalian = mysql_query("SELECT id_pengendalian, pengendalian FROM tb_pengendalian WHERE nama_penyakit = '$s'");
-            if (mysql_num_rows($result_pengendalian)) {
-            $row_pengendalian = mysql_fetch_array($result_pengendalian);
-            echo "<br><b>ID Pengendalian: </b>" . $row_pengendalian['id_pengendalian'];
-            echo "<br><b>Pengendalian: </b>" . $row_pengendalian['pengendalian'];
-            }
             ?>
-        <div>
-        <br></br>
-        <a href="logout.php">
-        <button class="button-primary">Batal Tes</button>
-        </a>
-        </div>
-        </div>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
