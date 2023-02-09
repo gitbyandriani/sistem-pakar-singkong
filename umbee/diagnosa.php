@@ -132,11 +132,3 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
-
-<!--if($row['ifyes'] != "0" && $row['ifno'] != "0"){
-                    echo("<a class='jawab' href=\"?pilih=tanya&pilihan=Y&answer={$row['ifyes']}\">Ya</a> &nbsp;
-                        <a class='jawab' href=\"?pilih=tanya&pilihan=N&answer={$row['ifno']}\">Tidak</a>");
-                }else{
-                    echo "";
-                }
-            }-->

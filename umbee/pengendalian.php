@@ -51,7 +51,7 @@ $solusi = query("SELECT * FROM tb_pengendalian");
                 </div>
             </div>
         </header>
-            <!-- Awal Pengendalian -->
+            <!-- Pengendalian -->
             <section id="hama">
             <div class="container">
                 <div class="row">
