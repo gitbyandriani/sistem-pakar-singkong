@@ -46,6 +46,7 @@ function tambahpengendalian($dtpengendalian){
 
 function tambahgejala($datagejala){
     global $conn;
+    $idkd = htmlspecialchars($datagejala['id']);
     $id_gejala = htmlspecialchars($datagejala['id_gejala']);
     $kd_gejala = htmlspecialchars($datagejala['kd_gejala']);
     $pertanyaan = htmlspecialchars($datagejala['pertanyaan']);
@@ -119,17 +120,16 @@ function ubahpengendalian($ubah_pengendalian){
 
 function ubahgejala($ubah_gejala){
     global $conn;
+    $idkd = htmlspecialchars($datagejala['id']);
     $id_gejala = htmlspecialchars($ubah_gejala['id_gejala']);
     $kd_gejala = htmlspecialchars($ubah_gejala['kd_gejala']);
     $pertanyaan = htmlspecialchars($ubah_gejala['pertanyaan']);
-    $ifyes = htmlspecialchars($ubah_gejala['ifyes']);
-    $ifno = htmlspecialchars($ubah_gejala['ifno']);
+    $ifyes = htmlspecialchars($ifyes['ifyes']);
+    $ifno = htmlspecialchars($ifyes['ifno']);
     
     $query = "UPDATE gejala SET
             kd_gejala = '$kd_gejala',
-            pertanyaan = '$pertanyaan',
-            ifyes = '$ifyes',
-            ifno = '$ifno' 
+            gejala = '$gejala'  
             WHERE id_gejala = $id_gejala
             ";
     mysqli_query($conn, $query);

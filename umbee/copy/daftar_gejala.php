@@ -85,6 +85,7 @@ $gejala = query("SELECT * FROM gejala");
         <table class="table table-striped table-bordered">
           <thead>
             <tr>
+              <th scope="col">ID</th>
               <th scope="col">Id Gejala</th>
               <th scope="col">Kode Gejala</th>
               <th scope="col">Gejala</th>
@@ -98,13 +99,14 @@ $gejala = query("SELECT * FROM gejala");
           <tbody>
             <tr>
               <!-- <th scope="row"><?= $i; ?></th> -->
+              <td><?= $row["id"]; ?></td>
               <td><?= $row["id_gejala"]; ?></td>
               <td><?= $row["kd_gejala"]; ?></td>
               <td><?= $row["pertanyaan"]; ?></td>
               <td><?= $row["ifyes"]; ?></td>
               <td><?= $row["ifno"]; ?></td>
-              <td><a class="btn btn-warning" href="ubah_gejala.php?id=<?= $row["id_gejala"]; ?>" ><i class="bi bi-pencil-square text-white"></i></td>
-              <td><a class="btn btn-danger" href="hapus_gejala.php?id= <?= $row["id_gejala"]; ?>" onclick= "return confirm('Apakah Yakin Akan Menghapus Data Ini?')"><i class="bi bi-trash bg-danger text-white"></i></td>
+              <td><a class="btn btn-warning" href="ubah_gejala.php?id=<?= $row["id"]; ?>" ><i class="bi bi-pencil-square text-white"></i></td>
+              <td><a class="btn btn-danger" href="hapus_gejala.php?id= <?= $row["id"]; ?>" onclick= "return confirm('Apakah Yakin Akan Menghapus Data Ini?')"><i class="bi bi-trash bg-danger text-white"></i></td>
             </tr>
           </tbody>
           <!-- <?php $i++; ?> -->

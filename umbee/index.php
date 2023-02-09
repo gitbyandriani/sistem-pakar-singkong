@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">umbeeku</a>
+                <a class="navbar-brand" href="index.php">umbeeku</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -89,25 +89,16 @@
     <div class="container">
         <div class="row">
         <div class="col align-self-center hero-tekshome my-auto">
-            <h3 class="mb-4 mt-5">Cara Penggunaan Website</h3>
-            <p class="mb-4">
-            Website sistem pakar ini dapat membantu anda untuk mendiagnosa hama dan penyakit yang menyerang tanaman padi. Cara menggunakan nya:
-            </p>
-            <!-- <h3 class="mb-4 fw-bold text-white">
-            Penting! Baca aturan penggunaan website
-            </h3> -->
-            <p class="mb-4">
-            1. Jika anda akan melakukan tes untuk mengetahui penyakit atau hama yang menyerang padi anda klik menu diagnosa.<br>
-            <br> 2. Jawablah pertanyaan yang di tampilkan pada website jika gejala yang ditampilkan oleh website  sama dengan gejala yang ada pada padi anda maka klik tombol "Ya" jika tidak maka klik tombol "Tidak".<br>
-            <br> 3. Jika anda tidak ingin menyelesaikan tes klik tombol "Batal Tes" dan tes akan dibatalkan.<br>
-            <br> 4. Namun jika anda ingin melanjutkan tes jawab semua gejala yang di tampilkan oleh website jika sudah maka anda akan melihat hasil dari tes anda.
+            <h3 class="mb-4 mt-5">Ubi Kayu</h3>
+            <p class="mb-4" align="justify"> 
+            Singkong, ketela pohon, ubi prancis, ubi sampa, ubi kayu, atau kaspe (Manihot esculenta) adalah perdu tropis dan subtropis tahunan dari suku Euphorbiaceae. Umbinya dikenal luas sebagai makanan pokok penghasil karbohidrat dan daunnya sebagai sayuran.
             </p>
             <!-- <a href="tes-hama.php">
             <button class="button-lg-primary">Diagnosa</button>
         </a> -->
         </div>
-        <div class="col d-none d-sm-block">
-            <img width="500" src="assets/img/check.jpg" alt="hero" />
+        <div class="col d-md-block">
+            <img width="450" src="assets/img/singkong.jpeg" alt="hero" />
         </div>
         </div>
     </div>

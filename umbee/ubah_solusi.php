@@ -56,7 +56,7 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
     <title>Ubah Solusi</title>
   </head>
   <!-- Logo title -->
-  <link rel="icon" href="asset/Images/Logo.png" type="image/x-icon" />
+  <link rel="icon" href="assets/logo.ico" type="image/x-icon" />
   <!-- Akhir logo title -->
   <body>
     <!-- Awal Navbar -->
@@ -78,15 +78,15 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_penyakit.php"><i class="bi bi-bug"></i> Daftar Penyakit</a>
+            <a class="nav-link text-white" href="daftar_penyakit.php"><i class="bi bi-clipboard-pulse"></i> Daftar Penyakit</a>
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_gejala.php"><i class="bi bi-list"></i> Daftar Gejala</a>
+            <a class="nav-link text-white" href="daftar_gejala.php"><i class="bi bi-check2-circle"></i> Daftar Gejala</a>
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"><i class="bi bi-lightbulb mr-2"></i> Daftar Solusi</a>
+            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>
@@ -95,31 +95,37 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
     <!-- Form Ubah Penyakit -->
     <div class="card col-md-10 p-5 pt-3">
       <div class="card-header">
-        <h3>Ubah Data Solusi</h3>
+        <h3>Ubah Data Pengendalian</h3>
       </div>
       <div class="card-body">
         <form action="" method="post">
           <input type="hidden" name="id_pengendalian" value="<?= $solusi["id_pengendalian"]; ?>">
           <div class="row mb-3">
-            <label for="id_pengendalian" class="col-sm-2 col-form-label">Id Solusi</label>
+            <label for="id_pengendalian" class="col-sm-2 col-form-label">Id Pengendalian</label>
             <div class="col-sm-5">
               <input type="text" name="id_pengendalian" class="form-control" id="id_pengendalian" value="<?=$solusi["id_pengendalian"]; ?>">
             </div>
           </div>
           <div class="row mb-3">
-            <label for="kd_pengendalian" class="col-sm-2 col-form-label">Kode Solusi</label>
+            <label for="kd_pengendalian" class="col-sm-2 col-form-label">Kode Pengendalian</label>
             <div class="col-sm-5">
               <input type="text" name="kd_pengendalian" class="form-control" id="kd_pengendalian" value="<?=$solusi["kd_pengendalian"]; ?>">
             </div>
           </div>
           <div class="row mb-3">
-            <label for="tb_pengendalian" class="col-sm-2 col-form-label">Solusi</label>
+            <label for="tb_pengendalian" class="col-sm-2 col-form-label">Nama Penyakit</label>
+            <div class="col-sm-5">
+              <input type="text" name="penyakit" class="form-control" id="penyakit" value="<?=$solusi["penyakit"]; ?>">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="tb_pengendalian" class="col-sm-2 col-form-label">Pengendalian</label>
             <div class="col-sm-5">
               <input type="text" name="pengendalian" class="form-control" id="pengendalian" value="<?=$solusi["pengendalian"]; ?>">
             </div>
           </div>
       <div class="card-footer">
-        <button type="submit" name="submit" class="btn btn-success">Ubah</button>
+        <button type="submit" name="submit" class="btn btn-dark">Ubah</button>
         <a href = "daftar_solusi.php">
         <button type="button" class="btn btn-warning">Batal</button>
         </a>

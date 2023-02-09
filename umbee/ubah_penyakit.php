@@ -56,7 +56,7 @@ $penyakit = query("SELECT * FROM tb_penyakit WHERE id_penyakit = $id")[0];
     <title>Ubah Penyakit</title>
   </head>
   <!-- Logo title -->
-  <link rel="icon" href="asset/Images/Logo.png" type="image/x-icon" />
+  <link rel="icon" href="assets/logo.ico" type="image/x-icon" />
   <!-- Akhir logo title -->
   <body>
     <!-- Awal Navbar -->
@@ -78,19 +78,15 @@ $penyakit = query("SELECT * FROM tb_penyakit WHERE id_penyakit = $id")[0];
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_penyakit.php"><i class="bi bi-bug"></i> Daftar Penyakit</a>
+            <a class="nav-link text-white" href="daftar_penyakit.php"><i class="bi bi-clipboard-pulse"></i> Daftar Penyakit</a>
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_gejala.php"><i class="bi bi-list"></i> Daftar Gejala</a>
+            <a class="nav-link text-white" href="daftar_gejala.php"><i class="bi bi-check2-circle"></i> Daftar Gejala</a>
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"><i class="bi bi-lightbulb mr-2"></i> Daftar Solusi</a>
-            <hr class="bg-secondary" />
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_admin.php"><i class="bi bi-person"></i> Daftar Admin</a>
+            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>
@@ -140,7 +136,7 @@ $penyakit = query("SELECT * FROM tb_penyakit WHERE id_penyakit = $id")[0];
             </div>
           </div>
       <div class="card-footer">
-        <button type="submit" name="submit" class="btn btn-success">Ubah</button>
+        <button type="submit" name="submit" class="btn btn-dark">Ubah</button>
         <a href = "daftar_penyakit.php">
         <button type="button" class="btn btn-warning">Batal</button>
         </a>

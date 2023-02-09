@@ -98,6 +98,12 @@ if ((isset($_POST["submit"]))){
       <div class="card-body">
         <form action="" method="post">
         <div class="row mb-3">
+            <label for="id" class="col-sm-2 col-form-label">ID</label>
+            <div class="col-sm-5">
+              <input type="text" name="id" class="form-control" id="id" required>
+            </div>
+        </div>
+        <div class="row mb-3">
             <label for="id_gejala" class="col-sm-2 col-form-label">Id Gejala</label>
             <div class="col-sm-5">
               <input type="text" name="id_gejala" class="form-control" id="id_gejala" required>

@@ -11,7 +11,7 @@ if( !isset($_SESSION["login"]) ){
 
 $id = $_GET["id"];
 
-$gejala = query("SELECT * FROM gejala WHERE id= $id")[0];
+$gejala = query("SELECT * FROM gejala WHERE id_gejala= $id")[0];
 
   if (isset($_POST["submit"])){ 
   
@@ -100,12 +100,6 @@ $gejala = query("SELECT * FROM gejala WHERE id= $id")[0];
       <div class="card-body">
         <form action="" method="post">
         <div class="row mb-3">
-            <label for="id" class="col-sm-2 col-form-label">ID</label>
-            <div class="col-sm-5">
-              <input type="text" name="id" class="form-control" id="id" value="<?=$gejala["id"]; ?>">
-            </div>
-          </div>
-        <div class="row mb-3">
             <label for="id_gejala" class="col-sm-2 col-form-label">Id Gejala</label>
             <div class="col-sm-5">
               <input type="text" name="id_gejala" class="form-control" id="id_gejala" value="<?=$gejala["id_gejala"]; ?>">
@@ -136,7 +130,7 @@ $gejala = query("SELECT * FROM gejala WHERE id= $id")[0];
             </div>
           </div>
       <div class="card-footer">
-        <button type="submit" name="submit" class="btn btn-success">Ubah</button>
+        <button type="submit" name="submit" class="btn btn-dark">Ubah</button>
         <a href = "daftar_gejala.php">
         <button type="button" class="btn btn-warning">Batal</button>
         </a>
