@@ -107,7 +107,14 @@
             }else{
                 echo "";
             }
-        ?>
+
+            $result_pengendalian = mysql_query("SELECT id_pengendalian, pengendalian FROM tb_pengendalian WHERE nama_penyakit = '$s'");
+            if (mysql_num_rows($result_pengendalian)) {
+            $row_pengendalian = mysql_fetch_array($result_pengendalian);
+            echo "<br><b>ID Pengendalian: </b>" . $row_pengendalian['id_pengendalian'];
+            echo "<br><b>Pengendalian: </b>" . $row_pengendalian['pengendalian'];
+            }
+            ?>
         <div>
         <br></br>
         <a href="logout.php">
