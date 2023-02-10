@@ -80,7 +80,7 @@ $solusi = mysqli_fetch_assoc($jumlahSolusi);
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
+            <a class="nav-link text-white" href="daftar_pengendalian.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>
@@ -116,7 +116,7 @@ $solusi = mysqli_fetch_assoc($jumlahSolusi);
             <div class="card-body">
               <h5 class="card-title">Jumlah Pengendalian</h5>
               <div class="display-4"><?= $solusi['jml_solusi']; ?></div>
-              <a href="daftar_solusi.php"
+              <a href="daftar_pengendalian.php"
                 ><p class="card-text text-white">Lihat Detail <i class="bi bi-chevron-double-right ml-2"></i></p>
               </a>
             </div>

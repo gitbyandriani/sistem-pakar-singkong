@@ -86,7 +86,7 @@ $gejala = query("SELECT * FROM gejala WHERE id_gejala= $id")[0];
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
+            <a class="nav-link text-white" href="daftar_pengendalian.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>

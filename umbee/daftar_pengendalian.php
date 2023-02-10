@@ -35,7 +35,7 @@ $solusi = query("SELECT * FROM tb_pengendalian");
     <!-- Responsive style -->
     <link rel="stylesheet" href="responsive.css" />
 
-    <title>Daftar Solusi</title>
+    <title>Daftar Pengendalian</title>
   </head>
   <!-- Logo title -->
   <link rel="icon" href="assets/logo.ico" type="image/x-icon" />
@@ -70,7 +70,7 @@ $solusi = query("SELECT * FROM tb_pengendalian");
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
+            <a class="nav-link text-white" href="daftar_pengendalian.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>
@@ -81,7 +81,7 @@ $solusi = query("SELECT * FROM tb_pengendalian");
       <div class="col-md-10 p-5 pt-3">
         <h3>DAFTAR PENGENDALIAN</h3>
         <hr />
-        <a href="tambah_solusi.php" class="btn btn-primary mb-4"><i class="bi bi-plus-square-fill me-2"></i>Tambah Pengendalian</a>
+        <a href="tambah_pengendalian.php" class="btn btn-primary mb-4"><i class="bi bi-plus-square-fill me-2"></i>Tambah Pengendalian</a>
         <div class="table-responsive">
           <table class="table table-striped table-bordered">
           <thead>
@@ -104,8 +104,8 @@ $solusi = query("SELECT * FROM tb_pengendalian");
               <td>
               <?= $row["pengendalian"]; ?>
               </td>
-              <td><a class="btn btn-warning" href="ubah_solusi.php?id=<?= $row["id_pengendalian"]; ?>" ><i class="bi bi-pencil-square text-white"></i></td>
-              <td><a class="btn btn-danger" href="hapus_solusi.php?id= <?= $row["id_pengendalian"]; ?>" onclick= "return confirm('Apakah Yakin Akan Menghapus Data Ini?')"><i class="bi bi-trash bg-danger text-white"></i></td>
+              <td><a class="btn btn-warning" href="ubah_pengendalian.php?id=<?= $row["id_pengendalian"]; ?>" ><i class="bi bi-pencil-square text-white"></i></td>
+              <td><a class="btn btn-danger" href="hapus_pengendalian.php?id= <?= $row["id_pengendalian"]; ?>" onclick= "return confirm('Apakah Yakin Akan Menghapus Data Ini?')"><i class="bi bi-trash bg-danger text-white"></i></td>
             </tr>
           </tbody>
           <!-- <?php $i++; ?> -->

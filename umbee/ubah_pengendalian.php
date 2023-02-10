@@ -16,13 +16,13 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
     if (ubahpengendalian($_POST) > 0){
       echo "
       <script> alert('Data Berhasil Diubah!');
-      document.location.href = 'daftar_solusi.php';
+      document.location.href = 'daftar_pengendalian.php';
       </script>
       ";
     } else {
       echo "
       <script> alert('Data gagal Diubah!');
-      document.location.href = 'daftar_solusi.php';
+      document.location.href = 'daftar_pengendalian.php';
       </script>
       ";
     }
@@ -86,7 +86,7 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
             <hr class="bg-secondary" />
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="daftar_solusi.php"> Daftar Pengendalian</a>
+            <a class="nav-link text-white" href="daftar_pengendalian.php"> Daftar Pengendalian</a>
             <hr class="bg-secondary" />
           </li>
         </ul>
@@ -126,7 +126,7 @@ $solusi = query("SELECT * FROM tb_pengendalian WHERE id_pengendalian = $id")[0];
           </div>
       <div class="card-footer">
         <button type="submit" name="submit" class="btn btn-dark">Ubah</button>
-        <a href = "daftar_solusi.php">
+        <a href = "daftar_pengendalian.php">
         <button type="button" class="btn btn-warning">Batal</button>
         </a>
       </div>
